@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Jose\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jose\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_MyUnityGame.1307063210.00" t="ExcludeRecursive" />
+    <e p="D:\Programacion\Proyecto\Unity\MyUnityGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="48 Particle Effect Pack" t="Include">
+          <e p="Script" t="Include">
+            <e p="csDestroyEffect.cs" t="Include" />
+            <e p="csMouseOrbit.cs" t="Include" />
+            <e p="csParticleEffectPackLightControl.cs" t="Include" />
+            <e p="csParticleMove.cs" t="Include" />
+            <e p="csShowAllEffect.cs" t="Include" />
+          </e>
+          <e p="ShurikenEffectEditor" t="Include">
+            <e p="csShurikenEffectChanger.cs" t="Include" />
+            <e p="csShurikenEffectEditor.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Main" t="Include">
+          <e p="Camera" t="Include">
+            <e p="FollowCamera.cs" t="Include" />
+          </e>
+          <e p="Enemys" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="Tortoise" t="Include">
+              <e p="EnemyDetector.cs" t="Include" />
+              <e p="ShellTortoise.cs" t="Include" />
+              <e p="Tortoise.cs" t="Include" />
+            </e>
+          </e>
+          <e p="GameManager" t="Include">
+            <e p="GameManager.cs" t="Include" />
+          </e>
+          <e p="PlayerCharacter" t="Include">
+            <e p="Animations.cs" t="Include" />
+            <e p="Canva" t="Include">
+              <e p="Buttons" t="Include">
+                <e p="AttackButton.cs" t="Include" />
+                <e p="ChangeButton.cs" t="Include" />
+                <e p="JumpButton.cs" t="Include" />
+                <e p="SmallButton.cs" t="Include" />
+              </e>
+              <e p="canvas.cs" t="Include" />
+              <e p="Joystick Pack" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Base" t="Include">
+                    <e p="Joystick.cs" t="Include" />
+                  </e>
+                  <e p="Editor" t="Include">
+                    <e p="DynamicJoystickEditor.cs" t="Include" />
+                    <e p="FloatingJoystickEditor.cs" t="Include" />
+                    <e p="JoystickEditor.cs" t="Include" />
+                    <e p="VariableJoystickEditor.cs" t="Include" />
+                  </e>
+                  <e p="Joysticks" t="Include">
+                    <e p="DynamicJoystick.cs" t="Include" />
+                    <e p="FixedJoystick.cs" t="Include" />
+                    <e p="FloatingJoystick.cs" t="Include" />
+                    <e p="VariableJoystick.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="PlayerController.cs" t="Include" />
+            <e p="Weapons" t="Include">
+              <e p="Projectil.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Objects" t="Include">
+          <e p="Coin" t="Include">
+            <e p="CoinScript.cs" t="Include" />
+          </e>
+          <e p="Damager" t="Include">
+            <e p="AutoKill.cs" t="Include" />
+            <e p="Damager.cs" t="Include" />
+          </e>
+          <e p="Heart" t="Include">
+            <e p="Heart.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Obstacles" t="Include">
+          <e p="DontChangeSize" t="Include">
+            <e p="DontChangeSize.cs" t="Include" />
+          </e>
+          <e p="PlatformWeight" t="Include">
+            <e p="PlatformWeight.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PinwheelFantasyEffect" t="Include">
+          <e p="README.txt" t="Include" />
+          <e p="Script" t="Include">
+            <e p="DemoManager.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CompileLogger.cs" t="Include" />
+              <e p="PolarisV2AdsWindow.cs" t="Include" />
+            </e>
+            <e p="FairyDustRandomPosition.cs" t="Include" />
+            <e p="FairyMeteorAddForceDemo.cs" t="Include" />
+            <e p="Fireball.cs" t="Include" />
+            <e p="Spin.cs" t="Include" />
+            <e p="Test.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="MyUnityGame.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="650b2f86-aa22-46f4-ae7f-455be7fb3aa4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyUnityGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyUnityGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/ShellTortoise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/ShellTortoise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/TortoiseDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/TortoiseDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Damager/Damager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Damager/Damager.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/canvas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/JumpButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Joystick Pack/Scripts/Editor/JoystickEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/ChangeButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/EnemyDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Damager/AutoKill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Damager/Damager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Projectil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/GameManager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Coin/CoinScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Obstacles/DontChangeSize/DontChangeSize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/48 Particle Effect Pack/Script/csDestroyEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Obstacles/PlatformWeight/PlatformWeight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/Camera/FollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Animations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Heart/Heart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/ShellTortoise.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Buttons/Buttons.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Buttons/JoyButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/FollowCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Buttons/JumpButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Weapons/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Weapons/Arc.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Weapons/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Buttons/ChangeButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Animations/Animations.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Buttons/AttackButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Camera/CameraDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Coin/CoinScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerCharacter/Camera/FollowCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Canva/canvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animations.cs" />
+        <option value="$PROJECT_DIR$/Assets/ObjectVisible.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Canva/Buttons/JumpButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Canva/Buttons/SmallButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Objects/DontChangeSize/DontChangeSize.cs" />
+        <option value="$PROJECT_DIR$/Assets/Objects/Damager/AutoKill.cs" />
+        <option value="$PROJECT_DIR$/Assets/Objects/Heart/Heart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/GameManager/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/canvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Obstacles/PlatformWeight/PlatformWeight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/PruebaEnemigo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/AttackRange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Prueba.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Detector_Tortle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Waypoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/TortoiseDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Objects/Damager/Damager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/ShellTortoise.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/EnemyDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Projectil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Animations.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.MyUnityGame/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.MyUnityGame/.idea/indexLayout.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.MyUnityGame/.idea/projectSettingsUpdater.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PNBONP3us8SH5usx2oqzWOHoYN" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="650b2f86-aa22-46f4-ae7f-455be7fb3aa4" name="Default Changelist" comment="" />
+      <created>1559217353463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559217353463</updated>
+      <workItem from="1559217377531" duration="3093000" />
+      <workItem from="1559298031115" duration="4589000" />
+      <workItem from="1559306415777" duration="2121000" />
+      <workItem from="1559549996440" duration="9938000" />
+      <workItem from="1560941728591" duration="67000" />
+      <workItem from="1560941844694" duration="9063000" />
+      <workItem from="1561021816284" duration="6353000" />
+      <workItem from="1561060399764" duration="5602000" />
+      <workItem from="1561066736095" duration="2757000" />
+      <workItem from="1561390960983" duration="1624000" />
+      <workItem from="1561481789185" duration="4557000" />
+      <workItem from="1561488423999" duration="745000" />
+      <workItem from="1561544315965" duration="8725000" />
+      <workItem from="1561650611105" duration="4319000" />
+      <workItem from="1561717268418" duration="1204000" />
+      <workItem from="1561722218255" duration="133000" />
+      <workItem from="1562146566628" duration="2469000" />
+      <workItem from="1562243175022" duration="5757000" />
+      <workItem from="1562320271128" duration="3003000" />
+      <workItem from="1562578877940" duration="2402000" />
+      <workItem from="1562691935962" duration="259000" />
+      <workItem from="1562780518945" duration="1683000" />
+      <workItem from="1562949819538" duration="1807000" />
+      <workItem from="1563360498353" duration="4515000" />
+      <workItem from="1563620328265" duration="5635000" />
+      <workItem from="1563952552449" duration="3482000" />
+      <workItem from="1564048842544" duration="1052000" />
+      <workItem from="1564422133492" duration="2960000" />
+      <workItem from="1564748623864" duration="86000" />
+      <workItem from="1564749404625" duration="991000" />
+      <workItem from="1564751359458" duration="3050000" />
+      <workItem from="1565088132528" duration="1461000" />
+      <workItem from="1565114383458" duration="2433000" />
+      <workItem from="1565266967134" duration="12762000" />
+      <workItem from="1565349157454" duration="2532000" />
+      <workItem from="1565611514675" duration="1651000" />
+      <workItem from="1565703576018" duration="111000" />
+      <workItem from="1565704646872" duration="4121000" />
+      <workItem from="1565785419412" duration="9908000" />
+      <workItem from="1565954953904" duration="4530000" />
+      <workItem from="1566236191185" duration="3446000" />
+      <workItem from="1567269958756" duration="7140000" />
+      <workItem from="1567427987366" duration="2074000" />
+      <workItem from="1567601921491" duration="6690000" />
+      <workItem from="1567682367295" duration="4428000" />
+      <workItem from="1567769382907" duration="2940000" />
+      <workItem from="1569407858768" duration="364000" />
+      <workItem from="1569408257249" duration="12367000" />
+      <workItem from="1569840643855" duration="1091000" />
+      <workItem from="1569843101775" duration="7510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="482" y="64" key="RiderGenerateDialog" />
+    <state x="482" y="64" key="RiderGenerateDialog/1360.768" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
