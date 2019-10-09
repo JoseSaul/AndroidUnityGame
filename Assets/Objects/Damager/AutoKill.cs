@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Main.GameManager;
 using UnityEngine;
 
 public class AutoKill : MonoBehaviour
@@ -8,7 +9,7 @@ public class AutoKill : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.GameManager manager = FindObjectOfType<GameManager.GameManager>();
+            GameManager manager = FindObjectOfType<GameManager>();
             manager.LoseLife();
             manager.LoseLife();
             manager.LoseLife();

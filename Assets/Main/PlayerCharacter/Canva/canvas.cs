@@ -15,8 +15,8 @@ namespace Main.PlayerCharacter.Canva
         void Start()
         {
             GameManager.GameManager manager = FindObjectOfType<GameManager.GameManager>();
-            life = manager.getLife();
-            gold = manager.getGold();
+            life = manager.GetLife();
+            gold = manager.GetGold();
             bullets = manager.GetBullets();
         }
 

@@ -1283,7 +1283,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TITTLE
+  m_Text: Lost Traveler
 --- !u!222 &1931276572
 CanvasRenderer:
   m_ObjectHideFlags: 0

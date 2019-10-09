@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Main.GameManager;
+using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class CoinScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-           FindObjectOfType<GameManager.GameManager>().addGold();
+           FindObjectOfType<GameManager>().AddGold();
            Destroy(gameObject);
         }
     }

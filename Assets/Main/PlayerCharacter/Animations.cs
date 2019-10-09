@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Main.Enemys;
+using UnityEngine;
 
 namespace Main.PlayerCharacter
 {

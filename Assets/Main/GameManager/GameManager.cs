@@ -1,36 +1,21 @@
-﻿using System;
-using Main.PlayerCharacter;
+﻿using Main.PlayerCharacter;
 using Main.PlayerCharacter.Canva;
-using UnityEditor.SceneManagement;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace GameManager
+namespace Main.GameManager
 {
     public class GameManager : MonoBehaviour
     {
-        private int life = 3,gold = 0, arrows = 5;
+        private int life = 3,gold, arrows = 5;
         public canvas canvas;
 
         private void Awake()
         {
             DontDestroyOnLoad(gameObject);
         }
-
-
-        // Start is called before the first frame update
-        void Start()
-        {
-            
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
         
-        }
 
-        public void addLife()
+        public void AddLife()
         {
             if (life < 3)
             {
@@ -55,19 +40,19 @@ namespace GameManager
             }
         }
         
-        public int getLife()
+        public int GetLife()
         {
             return life;
         }
     
-        public void addGold()
+        public void AddGold()
         {
             gold++;
             canvas.TextGold(gold);
             
         }
 
-        public int getGold()
+        public int GetGold()
         {
             return gold;
         }

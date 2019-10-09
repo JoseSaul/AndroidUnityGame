@@ -1,24 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Menu : MonoBehaviour
+namespace Main.Menu
 {
-
-    public void NewGame()
+    public class Menu : MonoBehaviour
     {
-        SceneManager.LoadScene("SampleScene");
-    }
 
-    public void Continue()
-    {
-        Debug.Log("Continuar");
-    }
+        public void NewGame()
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
 
-    public void ExitGame()
-    {
-        Debug.Log("Salir");
-    }
+        public void Continue()
+        {
+            Debug.Log("Continuar");
+        }
+
+        public void ExitGame()
+        {
+            Debug.Log("Salir");
+            Application.Quit();
+        }
     
+    }
 }

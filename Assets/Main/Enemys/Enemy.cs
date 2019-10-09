@@ -1,56 +1,38 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Enemy : MonoBehaviour
+namespace Main.Enemys
 {
+    public class Enemy : MonoBehaviour
+    {
 
-    [SerializeField] private GameObject fbx;
-    [SerializeField] protected GameObject body;
-    protected int life;
-    protected bool inmune = false;
-    
-    
-    public Enemy()
-    {
-        
-    }
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+        [SerializeField] private GameObject fbx;
+        [SerializeField] protected GameObject body;
+        protected int life;
+        protected bool inmune = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
 
-    public void ReceiveDamage()
-    {
-        if (!inmune)
+        public void ReceiveDamage()
         {
-            life--;
-            if (life == 0)
+            if (!inmune)
             {
-                Instantiate(fbx, body.transform.position, Quaternion.identity);
-                Destroy(gameObject);
-            }  
+                life--;
+                if (life == 0)
+                {
+                    Instantiate(fbx, body.transform.position, Quaternion.identity);
+                    Destroy(gameObject);
+                }  
+            }
         }
-    }
 
-    public virtual void Attack()
-    {
+        public virtual void Attack()
+        {
         
-    }
+        }
 
-    public virtual void LeftAttack()
-    {
+        public virtual void LeftAttack()
+        {
         
-    }
+        }
 
+    }
 }
