@@ -15,14 +15,12 @@ namespace Main.Enemys.Tortoise
 
         private static readonly int AAttack = Animator.StringToHash("Attacking");
         
-        // Start is called before the first frame update
         private void Start()
         {
             life = 1;
             inmune = true;
         }
 
-        // Update is called once per frame
         private void Update()
         {
             Move();

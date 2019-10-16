@@ -14,9 +14,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Main/GameManager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Menu/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Animations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xiaomi@1.0.3/XiaomiSupport/Editor/AppStoreSettingsEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/AttackButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Projectil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -24,8 +27,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Main/MainMenu/NewGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Menu/Menu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/GameManager/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Animations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Projectil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -79,6 +86,8 @@
       <workItem from="1570189400615" duration="1064000" />
       <workItem from="1570619376213" duration="1635000" />
       <workItem from="1570621085524" duration="442000" />
+      <workItem from="1570630204689" duration="714000" />
+      <workItem from="1571246067736" duration="1289000" />
     </task>
     <servers />
   </component>

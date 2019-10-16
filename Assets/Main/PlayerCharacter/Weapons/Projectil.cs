@@ -29,7 +29,7 @@ namespace Main.PlayerCharacter.Weapons
             {
                 if (other.collider.gameObject.CompareTag("Enemy"))
                 {
-                    other.collider.gameObject.GetComponentInParent<Enemy>().ReceiveDamage();
+                    other.collider.gameObject.GetComponentInParent<Enemy>().ReceiveDamage(true);
                 }
                 Instantiate(fbx, transform.position, Quaternion.identity);
                 Destroy(gameObject);

@@ -11,9 +11,9 @@ namespace Main.Enemys
         protected bool inmune = false;
 
 
-        public void ReceiveDamage()
+        public void ReceiveDamage(bool isLacer)
         {
-            if (!inmune)
+            if (!inmune || isLacer)
             {
                 life--;
                 if (life == 0)

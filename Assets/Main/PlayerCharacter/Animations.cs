@@ -30,7 +30,7 @@ namespace Main.PlayerCharacter
                     Instantiate(fbxResult, enemy.transform.position, Quaternion.identity);
                     if (enemy.GetComponentInParent<Enemy>())
                     {
-                        enemy.GetComponentInParent<Enemy>().ReceiveDamage();
+                        enemy.GetComponentInParent<Enemy>().ReceiveDamage(false);
                     }
                 }
             }

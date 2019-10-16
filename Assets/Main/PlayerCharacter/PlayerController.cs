@@ -1,6 +1,4 @@
-﻿using Boo.Lang;
-using UnityEngine;
-using UnityEngine.Animations;
+﻿using UnityEngine;
 
 namespace Main.PlayerCharacter
 {
@@ -24,13 +22,13 @@ namespace Main.PlayerCharacter
         private static readonly int ADie = Animator.StringToHash("Die");
 
         // Start is called before the first frame update
-        void Start() {
+        private void Start() {
             controller = GetComponent<CharacterController>();
             joystick = FindObjectOfType<Joystick>();
         }
 
         // Update is called once per frame
-        void Update() {
+        private void Update() {
             Move();
         }
 
@@ -187,14 +185,9 @@ namespace Main.PlayerCharacter
             return little;
         }
         
-        public void SetCanChangeSize(bool canChangeSize)
+        public void SetCanChangeSize(bool changeSize)
         {
-            this.canChangeSize = canChangeSize;
-        }
-
-        public bool GetCanchangeSize()
-        {
-            return canChangeSize;
+            this.canChangeSize = changeSize;
         }
 
         public void Die()
@@ -214,7 +207,9 @@ namespace Main.PlayerCharacter
         public void ReceiveDamage(Transform location)
         {
             Impulse(jumpForce);
-            controller.Move(new Vector3(transform.forward.x + 2,transform.forward.y ,transform.forward.z + 2));
+            var transform1 = transform;
+            var forward = transform1.forward;
+            controller.Move(new Vector3(forward.x + 2,forward.y ,forward.z + 2));
             var position = location.position;
             transform.LookAt(new Vector3(position.x,transform.position.y,position.z));
             FindObjectOfType<GameManager.GameManager>().LoseLife();
