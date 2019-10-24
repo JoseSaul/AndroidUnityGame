@@ -25,6 +25,7 @@ namespace Main.PlayerCharacter
         private void Start() {
             controller = GetComponent<CharacterController>();
             joystick = FindObjectOfType<Joystick>();
+            FindObjectOfType<GameManager.GameManager>().InitCanvas();
         }
 
         // Update is called once per frame

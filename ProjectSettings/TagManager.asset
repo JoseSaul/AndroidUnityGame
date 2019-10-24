@@ -7,6 +7,7 @@ TagManager:
   - Visible
   - Enemy
   - Ground
+  - Canvas
   layers:
   - Default
   - TransparentFX

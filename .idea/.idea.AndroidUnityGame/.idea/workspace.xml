@@ -27,12 +27,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Main/MainMenu/NewGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Menu/Menu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/GameManager/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Animations.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Projectil.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/GameManager/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -88,6 +88,7 @@
       <workItem from="1570621085524" duration="442000" />
       <workItem from="1570630204689" duration="714000" />
       <workItem from="1571246067736" duration="1289000" />
+      <workItem from="1571740372393" duration="1795000" />
     </task>
     <servers />
   </component>

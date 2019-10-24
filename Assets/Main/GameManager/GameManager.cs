@@ -7,13 +7,17 @@ namespace Main.GameManager
     public class GameManager : MonoBehaviour
     {
         private int life = 3,gold, arrows = 5;
-        public canvas canvas;
+        private canvas canvas;
 
         private void Awake()
         {
             DontDestroyOnLoad(gameObject);
         }
-        
+
+        public void InitCanvas()
+        {
+            this.canvas = GameObject.FindWithTag("Canvas").GetComponent<canvas>();
+        }
 
         public void AddLife()
         {
