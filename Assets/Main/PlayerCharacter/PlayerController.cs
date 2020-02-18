@@ -104,25 +104,19 @@ namespace Main.PlayerCharacter
 
         public void ChangeWeapon()
         {
-
-            if (canMove)
+            if (FindObjectOfType<GameManager.GameManager>().GetBullets() > 0)
             {
-                if (equipedWeapon)
-                {
-                    equipedWeapon = false;
-                    weapons[0].SetActive(false);
-                    weapons[1].SetActive(true);
-                    anim.SetBool(AWhatWeapon,equipedWeapon);
-                }
-                else
-                {
-                    equipedWeapon = true;
-                    weapons[0].SetActive(true);
-                    weapons[1].SetActive(false);
-                    anim.SetBool(AWhatWeapon,equipedWeapon);
-                }
+                equipedWeapon = false;
+                weapons[0].SetActive(false);
+                weapons[1].SetActive(true);
+                anim.SetBool(AWhatWeapon,equipedWeapon);
+                
+                DontMove();
+                anim.SetTrigger(AAttack);
+                FindObjectOfType<GameManager.GameManager>().UseBullet();
             }
         }
+        
 
         public GameObject GetWeapon(int n)
         {
@@ -134,20 +128,8 @@ namespace Main.PlayerCharacter
         {
             if (canMove)
             {
-                if (equipedWeapon)
-                {
-                    DontMove();
-                    anim.SetTrigger(AAttack);
-                }
-                else
-                {
-                    if (FindObjectOfType<GameManager.GameManager>().GetBullets() > 0)
-                    {
-                        DontMove();
-                        anim.SetTrigger(AAttack);
-                        FindObjectOfType<GameManager.GameManager>().UseBullet();
-                    }
-                } 
+                DontMove();
+                anim.SetTrigger(AAttack);
             }
         }
 
@@ -155,6 +137,11 @@ namespace Main.PlayerCharacter
         public void RestartMove()
         {
             canMove = true;
+            
+            equipedWeapon = true;
+            weapons[0].SetActive(true);
+            weapons[1].SetActive(false);
+            anim.SetBool(AWhatWeapon,equipedWeapon);
         }
 
 
