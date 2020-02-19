@@ -10,7 +10,7 @@ namespace Main.PlayerCharacter
 
         private Joystick joystick;
 
-        private Vector3 moveDirection;
+        private Vector3 moveDirection, negativeMovement;
         private float gravityScale = 4.5f, moveSpeed = 10, jumpForce = 12;
         private bool equipedWeapon = true, canMove = true, canJump = true, pressedJump, little, canChangeSize = true;
 
@@ -42,7 +42,7 @@ namespace Main.PlayerCharacter
             if (canMove)
             {
                 //Borrar codigo de teclado al acabar
-                moveDirection = new Vector3((joystick.Horizontal * moveSpeed) + (axisX * moveSpeed),moveDirection.y,(joystick.Vertical * moveSpeed) + (axisZ * moveSpeed));
+                moveDirection = new Vector3((joystick.Horizontal * moveSpeed) + (axisX * moveSpeed) - negativeMovement.x ,moveDirection.y,(joystick.Vertical * moveSpeed) + (axisZ * moveSpeed) - negativeMovement.z);
                 transform.LookAt(transform.position + new Vector3(moveDirection.x,0,moveDirection.z));
             }
 
@@ -99,6 +99,25 @@ namespace Main.PlayerCharacter
             canJump = false;
 
             moveDirection.y += (Physics.gravity.y * gravityScale * Time.deltaTime);
+        }
+        
+        
+        public void LateralImpulse(float force, bool zEje)
+        {
+            if (zEje)
+            {
+                negativeMovement = new Vector3(0.02f * force,0,0);
+            }
+            else
+            {
+                negativeMovement = new Vector3(0,0,0.05f * force);
+            }
+            
+        }
+
+        public void ExitLateralImpulse()
+        {
+            negativeMovement = new Vector3(0,0,0);
         }
         
 
