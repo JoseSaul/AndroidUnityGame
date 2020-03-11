@@ -46,6 +46,7 @@
                 <e p="AttackButton.cs" t="Include" />
                 <e p="ChangeButton.cs" t="Include" />
                 <e p="JumpButton.cs" t="Include" />
+                <e p="PauseButton.cs" t="Include" />
                 <e p="SmallButton.cs" t="Include" />
               </e>
               <e p="canvas.cs" t="Include" />
