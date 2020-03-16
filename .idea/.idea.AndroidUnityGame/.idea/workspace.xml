@@ -28,17 +28,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/PauseButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/GameManager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Menu/Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/AttackButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Obstacles/PlatformWeight/PlatformWeight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Animations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Obstacles/PlatformRotator/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xiaomi@1.0.3/XiaomiSupport/Editor/AppStoreSettingsEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/PauseButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/Enemys/Tortoise/Tortoise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/AttackButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Obstacles/PlatformWeight/PlatformWeight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Obstacles/PlatformRotator/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Projectil.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -54,6 +55,7 @@
         <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Obstacles/PlatformRotator/Rotate.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/PauseButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/PauseMenu.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +114,7 @@
       <workItem from="1581940110906" duration="3605000" />
       <workItem from="1582112305422" duration="13605000" />
       <workItem from="1583925055327" duration="4313000" />
+      <workItem from="1584358895519" duration="2734000" />
     </task>
     <servers />
   </component>
