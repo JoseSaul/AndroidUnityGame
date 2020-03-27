@@ -41,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Obstacles/PlatformWeight/PlatformWeight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Obstacles/PlatformRotator/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Projectil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/ChangeButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,10 +53,10 @@
         <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Weapons/Projectil.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/Enemys/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/GameManager/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Obstacles/PlatformRotator/Rotate.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/Buttons/PauseButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/Canva/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Main/PlayerCharacter/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -115,6 +116,7 @@
       <workItem from="1582112305422" duration="13605000" />
       <workItem from="1583925055327" duration="4313000" />
       <workItem from="1584358895519" duration="2734000" />
+      <workItem from="1585315251862" duration="934000" />
     </task>
     <servers />
   </component>
